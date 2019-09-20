@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
@@ -9,9 +12,5 @@
   "devDependencies": {
     "eslint": "^6.2.2",
     "nodemon": "^1.19.1"
-  },
-  "scripts": {
-    "dev": "nodemon ./src/index.js",
-    "eslint": "./node_modules/.bin/eslint --init"
   }
 }
